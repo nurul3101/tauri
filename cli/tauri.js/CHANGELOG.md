@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.11.2]
+
+-   -   Change `String` to `string` type for `open` and `save` methods
+    -   [0a5bac1](https://www.github.com/tauri-apps/tauri/commit/0a5bac1dd641792a64f79ec90e2a357f18280776) fix(tauri.js): fix typings for open and save dialogs ([#926](https://www.github.com/tauri-apps/tauri/pull/926)) on 2020-08-08
+-   -   Set correct promise resolve type which returns from `readBinaryFile`
+-   Add types to JSDoc annotations
+    -   [f98d4b9](https://www.github.com/tauri-apps/tauri/commit/f98d4b9076b51a7fc9eca12b4bed2cd3b466c6bc) fix(tauri.js): fix return type for `readBinaryFile` api method ([#927](https://www.github.com/tauri-apps/tauri/pull/927)) on 2020-08-08
+
 ## [0.11.1]
 
 -   Fix command line arguments -W (window title) and -P (dev server uri) to work as intended.
